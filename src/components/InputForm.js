@@ -5,7 +5,7 @@ const InputForm = ({ userInput, editIndex, updateInput, handleAction }) => (
     <div className="flex items-center mb-5">
         <input
             className="text-lg p-2 mr-2 flex-grow rounded border border-gray-300 text-black"
-            placeholder={editIndex !== null ? "Edit item..." : "Add item..."}
+            placeholder={editIndex !== null ? "Edit item..." : "Add a task"}
             value={userInput}
             onChange={(e) => updateInput(e.target.value)}
         />

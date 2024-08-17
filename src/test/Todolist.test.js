@@ -18,7 +18,7 @@ describe('InputForm Component', () => {
         );
 
         // Find the input element and the add button
-        const inputElement = screen.getByPlaceholderText("Add item...");
+        const inputElement = screen.getByPlaceholderText("Add a task");
         const addButton = screen.getByRole("button");
 
         // Simulate typing into the input
